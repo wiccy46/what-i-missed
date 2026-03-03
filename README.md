@@ -1,6 +1,8 @@
-# What I Missed (AI Developer Skill)
+# what-i-missed
 
-A agentic skill to help use natural language to summarize a project's git history. Coming back to a project but your teammates have already made huge advancement, and you wonder what's new?
+
+Coming to a new project or an old one that you left for a while, and you wonder what is new?
+Here is an agentic skill to summarize a project's git history with natural language. 
 
 It instructs your LLM to intelligently filter git commit noise and group repository changes into **Feature**, **Bug Fix**, and **Chore** categories with concise one-liners.
 
@@ -33,7 +35,8 @@ Gemini CLI uses packaged `.skill` files for distribution.
    ```bash
    /skills reload
    ```
-### 3. Cursor / Codex
+
+### Cursor / Codex
 For AI editors like Cursor that rely on context and rules files:
 1. Open `what-i-missed/SKILL.md` and copy its contents.
 2. Append the contents to your project's `.cursorrules` file.
