@@ -58,3 +58,35 @@ Instead of blindly repeating `git log` output, the skill provides your AI with a
 2. Fetch the history and aggressively filter out non-informative messages (e.g., ".", "wip", "update", "fixed").
 3. Apply semantic heuristics (using the provided `categorization-guide.md`) to categorize each valid commit.
 4. Output a clean, structured list grouped by intent.
+
+## Example
+
+Here is an example summary of a project of mine:
+
+```
+Over the past year, the AES67 streamer has evolved from a core implementation into a more feature-complete and documented tool. 
+Key highlights include the integration of SAP and PTP for standard-compliant synchronization and discovery.
+
+
+  Feature
+   - Implemented SAP (Session Announcement Protocol) with a built-in announcer for automatic session discovery.
+   - Added a full PTP (Precision Time Protocol) client to ensure high-fidelity synchronization.
+   - Integrated SAP and PTP support directly into the main application.
+   - Introduced a --verbose flag for easier debugging and set the default RTP port to 5004.
+
+
+  Bug Fix
+   - Resolved critical issues in the audio resampler and sample rate conversion logic.
+   - Fixed performance bottlenecks and memory allocation bugs in the audio reader.
+   - Corrected packet timing and sleep intervals to ensure stable streaming.
+   - Addressed integer overflows and added bounds checking for safer audio format conversion.
+
+
+  Chore
+   - Completed Phase 5 (Integration & Optimization) of the development roadmap.
+   - Significantly expanded documentation, including a professional README.md and updated CLAUDE.md.
+   - Added a comprehensive E2E testing and validation suite for AES67 compliance.
+   - Performed extensive code cleanup, including removing dead code and reducing log noise.
+   - Established project licensing and improved test coverage for core audio modules.
+
+```
