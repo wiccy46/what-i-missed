@@ -55,7 +55,7 @@ Once installed, you can use natural language to ask your AI assistant about repo
 
 Instead of blindly repeating `git log` output, the skill provides your AI with a procedural workflow to:
 1. Determine the exact `git log --since="..."` or SHA range from your natural language prompt.
-2. Fetch the history and aggressively filter out non-informative messages (e.g., ".", "wip", "update", "fixed").
+2. Fetch the history and aggressively filter out non-informative messages (e.g., ".", "wip", "update stuff", "fixed bug").
 3. Apply semantic heuristics (using the provided `categorization-guide.md`) to categorize each valid commit.
 4. Output a clean, structured list grouped by intent.
 
