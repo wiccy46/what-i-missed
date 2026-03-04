@@ -1,0 +1,13 @@
+{
+  "name": "what-i-missed",
+  "description": "Summarize recent git history with natural language",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jiajun Yang",
+    "email": "thejyang@gmail.com"
+  },
+  "homepage": "https://github.com/wiccy46/what-i-missed",
+  "repository": "https://github.com/wiccy46/what-i-missed",
+  "license": "MIT",
+  "keywords": ["skills", "git", "documentation"]
+}
